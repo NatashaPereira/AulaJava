@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package geradordeprova;
+package geradorprova;
 
 /**
  *
- * @author 6207375
+ * @author mathias
  */
 abstract class Questao {
-    
     private String pergunta;
     private double peso;
-
     public abstract String retornaQuestao();
+
     /**
      * @return the pergunta
      */
