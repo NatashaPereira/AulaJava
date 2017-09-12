@@ -12,7 +12,7 @@ package geradorprova;
 abstract class Questao {
     private String pergunta;
     private double peso;
-    public abstract String retornaQuestao();
+    public abstract String retornaQuestao();//toda classe deve criar esse metodo
 
     /**
      * @return the pergunta
