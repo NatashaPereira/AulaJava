@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8A2BE2;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="23.0" layoutY="34.0" text="Meu desempenho em cada disciplina e cada média: " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button layoutX="23.0" layoutY="341.0" mnemonicParsing="false" onAction="#VoltaTelaAnterior" style="-fx-background-color: #4B0082;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <BarChart layoutX="48.0" layoutY="62.0" prefHeight="250.0" prefWidth="471.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis prefHeight="232.0" prefWidth="26.0" side="LEFT" tickLabelFill="WHITE" tickLabelGap="5.0" upperBound="9.0" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="10.0" layoutY="177.0" rotate="270.0" text="Minha nota" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="SelecionarDisciplina" layoutX="88.0" layoutY="300.0" prefHeight="25.0" prefWidth="417.0" promptText="Selecione a disciplina..." />
+   </children>
+</AnchorPane>
