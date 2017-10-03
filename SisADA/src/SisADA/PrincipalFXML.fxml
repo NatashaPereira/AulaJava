@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #8A2BE2;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="256.0" layoutY="231.0" mnemonicParsing="false" onAction="#irParaSegundaTela" prefHeight="75.0" prefWidth="526.0" style="-fx-background-color: #4B0082;" text="Minhas avaliações" textAlignment="RIGHT" textFill="WHITE" AnchorPane.leftAnchor="247.0" AnchorPane.rightAnchor="251.0">
+         <font>
+            <Font size="33.0" />
+         </font></Button>
+      <Button layoutX="247.0" layoutY="419.0" mnemonicParsing="false" onAction="#irParaTelaDesempenho" prefHeight="75.0" prefWidth="526.0" style="-fx-background-color: #4B0082;" text="Meu desempenho" textFill="WHITE" AnchorPane.bottomAnchor="274.0" AnchorPane.leftAnchor="247.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="419.0">
+         <font>
+            <Font size="35.0" />
+         </font></Button>
+      <ImageView fitHeight="53.0" fitWidth="139.0" layoutX="284.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../sistemaacademico/images/graph.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="120.0" layoutX="283.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../sistemaacademico/images/hat.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

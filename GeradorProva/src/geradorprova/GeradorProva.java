@@ -9,10 +9,10 @@ import java.awt.Desktop;
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 import java.io.*;
-import java.util.ArrayList;
+
 /**
  *
- * @author mathias
+ * @author Natasha Pereira
  */
 
     public class GeradorProva{

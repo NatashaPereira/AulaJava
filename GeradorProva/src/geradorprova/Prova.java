@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author mathias
+ * @author Natasha Pereira
  */
 public class Prova {
     private String nomeDisciplina;
